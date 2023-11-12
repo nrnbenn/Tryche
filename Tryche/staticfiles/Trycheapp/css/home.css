@@ -1,0 +1,58 @@
+.navbar {
+    overflow: hidden;
+    background-color: #054100;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+.header {
+    position: relative;
+
+}
+
+.header img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 400px;
+}
+
+.header .tinted-overlay {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 255, 106, 0.5); /* Change the color and alpha (last value) as needed */
+
+}
+
+.header h1 {
+    position: absolute;
+    color: #ffffff;
+    right: 50%;
+
+}
